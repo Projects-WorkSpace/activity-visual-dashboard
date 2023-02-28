@@ -26,7 +26,7 @@ const mobiletoggle = ref<boolean>(false);
                     <button
                         @click="useRouter().push('/users')"
                         type="button"
-                        class="text-gray-900 bg-white border border-gray-300 focus:outline-none bg-opacity-80 hover:bg-opacity-100 focus:bg-opacity-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm sm:text-base px-3 sm:px-5 py-1 sm:py-1.5"
+                        class="e border border-gray-300 focus:outline-none bg-opacity-80 hover:bg-opacity-100 focus:bg-opacity-100 focus:ring-2 focus:ring-gray-200 font-medium rounded-md text-sm sm:text-base px-3 sm:px-6 py-1.5"
                     >
                         Log In
                     </button>

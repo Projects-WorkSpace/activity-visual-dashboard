@@ -465,7 +465,7 @@ const pushNewActivities = (payload: DayActivityModel[]): void => {
                     </Transition>
                 </div>
                 <div v-if="daily_activities.length !== 0" class="w-full flex flex-col items-start gap-y-5 pt-4">
-                    <div class="w-full flex flex-row items-start gap-x-4">
+                    <div class="w-full flex flex-row items-center justify-center sm:items-start sm:justify-start gap-x-4">
                         <button
                             @click="saveAllActivities"
                             type="button"
@@ -519,7 +519,7 @@ const pushNewActivities = (payload: DayActivityModel[]): void => {
                             Delete
                         </button>
                     </div>
-                    <div class="w-full flex flex-col md:flex-row gap-3 items-start">
+                    <div class="w-full flex flex-col md:flex-row gap-3 items-center justify-center sm:items-start sm:justify-start">
                         <p class="text-sm text-gray-400">Update the points or duration columns and click the save button</p>
                         <p class="text-sm hidden md:block text-gray-500">/</p>
                         <p class="text-sm text-gray-400">Click on the checkboxes to select which activity to delete.</p>

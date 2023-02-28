@@ -12,7 +12,7 @@ const logoutUser = (): void => {
 </script>
 <template>
     <nav class="w-full flex flex-col gap-y-2 sticky top-0 bg-cover z-20">
-        <div id="top-nav-layer" class="w-full flex flex-row justify-between items-center pt-3 pb-1 px-4 md:px-8 lg:px-20">
+        <div id="top-nav-layer" class="w-full flex flex-row justify-between items-center py-2.5 px-4 md:px-8 lg:px-20">
             <NuxtLink to="/" class="text-2xl sm:text-2xl font-semibold tracking-wide text-gray-50">
                 <img src="~/assets/logo/ed-logo3.webp" alt="" class="w-8 scale-150" />
             </NuxtLink>

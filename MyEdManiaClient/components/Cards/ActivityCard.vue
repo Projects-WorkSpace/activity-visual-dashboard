@@ -63,7 +63,7 @@ const deleteThis = (): void => {
             <div class="flex items-center" @click="deleteThis">
                 <input type="checkbox" />
             </div>
-            <label :for="day_activity.id.toString()" class="text-base sm:text-xl text-gray-800 font-medium capitalize cursor-pointer">
+            <label :for="day_activity.id.toString()" class="text-base sm:text-base text-gray-800 font-medium capitalize cursor-pointer">
                 {{ day_activity.childActivity.activity.name }}
             </label>
         </div>
