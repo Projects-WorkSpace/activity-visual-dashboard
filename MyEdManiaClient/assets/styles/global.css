@@ -1,0 +1,51 @@
+html {
+    font-family: 'PT Sans', Inter, Monospaced, sans-serif;
+    font-size: 15px;
+}
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    touch-action: pan-x pan-y;
+    @apply bg-background m-0 p-0;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+
+* {
+    scrollbar-color: #8885 #eee;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8885;
+    border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8886;
+}

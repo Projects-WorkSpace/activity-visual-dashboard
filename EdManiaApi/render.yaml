@@ -1,0 +1,21 @@
+databases:
+    - name: edmaniaapi
+      databaseName: edmaniaapi
+      user: edmaniaapi
+
+services:
+    - type: web
+      name: edmaniaapi
+      env: python
+      buildCommand: "./build.sh"
+      startCommand: "gunicorn api.wsgi:application"
+      autoDeploy: true
+      envVars:
+          - key: DATABASE_URL
+            fromDatabase:
+                name: edmaniaapi
+                property: connectionString
+          - key: SECRET_KEY
+            generateValue: true
+          - key: WEB_CONCURRENCY
+            value: 4

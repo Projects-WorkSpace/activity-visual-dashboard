@@ -1,0 +1,5 @@
+{
+	"python.defaultInterpreterPath": "~/.cache/pypoetry/virtualenvs/edmaniaapi-CC-JM9V2-py3.10/bin/python3.10",
+	"python.formatting.provider": "black",
+	"css.lint.unknownAtRules": "ignore"
+}

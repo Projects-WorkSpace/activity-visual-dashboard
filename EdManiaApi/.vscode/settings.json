@@ -1,0 +1,5 @@
+{
+	"python.formatting.provider": "black",
+	"appService.defaultWebAppToDeploy": "/subscriptions/db51bf71-62ef-4030-950b-3190426b5ea4/AppServices/subscriptions/db51bf71-62ef-4030-950b-3190426b5ea4/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/edmania-backend",
+	"appService.deploySubpath": "."
+}

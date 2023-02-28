@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.8.0",
+    "nuxt": "3.0.0",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@vuepic/vue-datepicker": "^3.6.4",
+    "echarts": "^5.4.1",
+    "pinia": "^2.0.28",
+    "vue-echarts": "^6.5.0"
+  }
+}
